@@ -1,0 +1,11 @@
+# JetBrains
+.idea
+*.iml
+
+# Build
+build
+out
+.gradle
+
+# OS
+.DS_Store
