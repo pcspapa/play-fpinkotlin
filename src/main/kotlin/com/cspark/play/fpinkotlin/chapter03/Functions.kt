@@ -7,7 +7,7 @@ class Functions {
     val double: (Int) -> Int = { x -> x * 2 }
     val doubleIt: (Int) -> Int = { it * 2 }
 
-    var add: (Int, Int) -> Int = { x, y -> x + y }
+    val add: (Int, Int) -> Int = { x, y -> x + y }
 
     val multiplyBy2: (Int) -> Int = { n -> double(n) }
     val multiplyBy2It: (Int) -> Int = { double(it) }
